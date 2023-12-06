@@ -1,0 +1,26 @@
+Variáveis são espaços em memória para armazenar dados
+
+Sintaxe de declaração: <tipo> <nome>;
+
+Nomeclatura:
+- Não pode número na 1ª posição
+- Não pode caracteres especiais
+- Não pode espaços
+
+Tipos de dados em linguagem c:
+- char
+- int (short)
+- int (long)
+- float
+- double
+
+Atribuição de conteúdo de variáveis:
+ex.: operador =
+- o que está à direita é atribuido à variável que está à esquerda do operador
+Sintaxe: <variavel> = <informação>;
+
+Constantes:
+Deretiva: #define: cria-se um identificador para um dado de qualquer tipo
+- mesmas regras de nomeclatura de variáveis
+Sintaxe de declaração: #define <nome> <valor>
+

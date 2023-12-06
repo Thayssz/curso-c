@@ -1,0 +1,12 @@
+Laço repetitivo:
+comando DO-WHILE:
+- similar ao WHILE
+    - inicialização, condição, atualização
+- diferença crucial
+    - condição avaliada somente no final
+    - bloco de comando é executado obrigatoriamente ao menos uma vez
+
+Sintaxe:
+    do{
+        <bloco de comando>
+    } while(<condição>);

@@ -1,0 +1,15 @@
+Operadores aritméticos
+
+- soma: +
+- subtração: -
+- multiplicação: *
+- divisão: /
+- resto da divisão inteira: %
+
+Atribuições aritméticas:
+- incremento em uma unidade: ++
+- decremento em uma unidade: --
+- incremento genérico: +=
+- decremento genérico: -=
+- atribuição com multiplicação: *=
+- atribuição com divisão: /=

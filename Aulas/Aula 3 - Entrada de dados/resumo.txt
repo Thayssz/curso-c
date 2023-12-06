@@ -1,0 +1,5 @@
+Sintaxe de entrada de dados: scanf(<form.>, &<variavel>...)
+
+ESPECIFICADORES DE FORMATO:
+(%)
+os mesmos de saída de dados

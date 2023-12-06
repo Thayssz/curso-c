@@ -1,0 +1,23 @@
+Structs (registros):
+- sintaxe de definição:
+    struct <novo_tipo>{
+        <tipo1> <campo1>;
+        <tipo2> <campo2>;
+        ...
+        <tipoN> <campoN>;
+    };
+
+- comando typedef:
+    - renomeia um identificador
+    - sintaxe:
+        typedef <tipo> <novo_nome>;
+
+- sintaxe de declaração de variável struct:
+    struct <novo_tipo> <nome_variável>; 
+    - sintaxe com typedef:
+        <novo_nome> <nome_variável>;
+
+- acessando os membros de uma struct
+    - é preciso haver uma variável desse tipo declarada
+    - sintaxe:
+        <variável>.<campo>

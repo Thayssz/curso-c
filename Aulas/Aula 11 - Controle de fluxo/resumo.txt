@@ -1,0 +1,5 @@
+Comandos de controle de desvio:
+comando BREAK:
+    - encerra um bloco de comandos
+comando CONTINUE:
+    - ao invés de encerrar por completo, encerra um repetição e passa para a próxima

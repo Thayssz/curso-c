@@ -1,0 +1,13 @@
+Funções e modularização de código
+- funções 
+    - resolver problemas complexos através de soluções menores
+    - sintaxe de definição:
+        <tipo> <nome_da_função> (<parâmetros>){
+            <bloco de comandos>
+            return <informação>;
+        }
+    - identificador: mesma regra das variáveis
+    - tipo de retorno
+        - retorno não é obrigatório em C 
+    - parâmetros de entrada
+        - nenhum, um ou vários
