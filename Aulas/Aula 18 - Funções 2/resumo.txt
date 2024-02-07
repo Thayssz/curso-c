@@ -1,0 +1,2 @@
+- ao chamar uma função, o compilador cria uma cópia de todos os parâmetros passados, destruindo-os ao final da execução da função
+- usando parametros por referência dá para ter multiplos retornos em uma função, usando ponteiros

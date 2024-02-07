@@ -1,0 +1,12 @@
+Variáveis e memória:
+    - em linguagem c, cada variável está associada a:
+        um nome;
+        um tipo;
+        um valor;
+        um endereço; &: mostrar endereço de memória
+
+Ponteiro:
+    - é uma variável que guarda o endereço de memória de uma variável
+    - todo ponteiro ocupa 8 bytes de memória
+    - descobrir tamanho de dados: sizeof
+        - obs: ao fazer o cast para unsigned long, você está informando explicitamente ao compilador que o argumento passado para %lu é do tipo unsigned long. Isso ajuda a evitar avisos e a garantir a correta correspondência de tipos, tornando seu código mais portátil entre diferentes sistemas e compiladores.

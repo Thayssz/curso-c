@@ -1,0 +1,9 @@
+Matrizes:
+- podem ter várias dimensões
+- dois ou mais índices para acesso a posições
+- sintaxe: 
+    <tipo> <nome> [<dim1>] [<dim2>] ... [<dimN>];
+- sintaxe de acesso a posição:
+    <nome> [<i1>] [<i2>] ... [<iN>]
+- sintaxe de inicialização:
+    <declaração> = {{<l1>}, {<l2>}, ..., {<lN}};

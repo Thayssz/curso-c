@@ -1,0 +1,4 @@
+- podemos atribuir valores aos campos de uma struct durante sua alocação estática
+    Aluno ted = {.nome = "Ted", .idade = 10};
+
+- para acessar os campos de uma struct na alocação dinâmica é usado uma seta ->

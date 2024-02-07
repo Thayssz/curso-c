@@ -1,0 +1,12 @@
+Laço repetitivo:
+comando FOR:
+- similar ao WHILE
+    - inicialização, condição, atualização
+- diferença crucial:
+    - sintaxe mais complexa
+    - tudo fica embutido no comando
+
+Sintaxe:
+    for(<ini.>; <cond.>; <incr.>){
+        <bloco de comando>
+    }

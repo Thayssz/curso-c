@@ -1,0 +1,11 @@
+Vetores:
+    - estrutura de dados unidimensionais
+    - índice único controla as posições
+    - sintaxe de declaração:
+        <tipo> <nome>[<tamanho>];
+    - acesso a uma posição:
+        - não é possível acessar um vetor todo
+        - sintaxe:
+            <nome>[índice];
+    - lista de inicialização: preenche um vetor todo, de uma vez só
+        <tipo> <nome>[<tam.>] = {<v1>, <v2>, ..., <vN>};

@@ -1,0 +1,22 @@
+Funções e modularização de código
+- funções 
+    - resolver problemas complexos através de soluções menores
+    - sintaxe de definição:
+        <tipo> <nome_da_função> (<parâmetros>){
+            <bloco de comandos>
+            return <informação>;
+        }
+    - identificador: mesma regra das variáveis
+    - tipo de retorno
+        - retorno não é obrigatório em C 
+    - parâmetros de entrada
+        - nenhum, um ou vários
+
+- sintaxe para parâmetro struct:
+    <tipo> <função>(<tipo_struct> <param>){...}
+- sintaxes para vetores/matrizes como parâmetro:
+    <tipo> <função>(<tipo> <vet>[], int tam){...}
+    <tipo> <função>(<tipo> <vet>[tam]){...}
+    <tipo> <função>(<tipo> *<vet>[], int tam){...}
+    <tipo> <função>(<tipo m[][<tam2>], int tam1){...}
+    

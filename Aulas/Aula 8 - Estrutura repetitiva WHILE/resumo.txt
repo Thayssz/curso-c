@@ -1,0 +1,12 @@
+Laço repetitivo:
+comando WHILE:
+- inicialização de uma ou mais variáveis de controle
+- definição de uma condição de parada
+    - enquanto for verdadeira: repete
+- atualização de variavéis de controle
+- cuidade: loop infinito
+
+Sintaxe: 
+    while(<condição>){
+        <bloco de comando>
+    }

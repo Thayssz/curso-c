@@ -1,0 +1,29 @@
+Sintaxe de saída de dados: printf(<texto>, <variavel>...);
+
+
+ESPECIFICADORES DE FORMATO:
+(%)
+d ou i: números inteiros em base decimal
+x: números inteiros em base hexadecimal
+f: números em ponto flutuante (com casas decimais)
+e: números em notação científica
+c: caracteres alfanuméricos (texto)
+s: sequência de caracteres alfanuméricos (texto)
+.<num>: especifica quantos digitos serão impressos após a vírgula
+
+
+SEQUÊNCIA DE ESCAPE:
+\a: toca um bipe, alarme sonoro padrão do sistema
+\b: backscape
+\n: quebra de linha
+\t: tabulação horizontal (TAB)
+\r: retorna ao ínicio da linha
+\0: caractere nulo
+\v: tabulação vertical
+\\: caractere \
+\': caractere '
+\": caractere "
+\?: caractere ?
+\123: caractere relacionado ao código 123 em octal (ASCII)
+\X12: caractere relacionado ao código 12 em hexadecimal (ASCII)
+%%: caractere %

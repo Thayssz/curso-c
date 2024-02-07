@@ -1,0 +1,39 @@
+Estrutura de decisão simples:
+
+comando IF: se a condição é verdadeira, o bloco é executado, senão, é ignorado
+Sintaxe:
+        if(<condição>){
+            <bloco de comando>
+        }
+
+Operadores relacionais:
+- maior: >
+- maior ou igual: >=
+- menor: <
+- menor ou igual: <=
+- igual: ==
+- diferente: !=
+
+Operadores lógicos:
+CONJUNÇÃO ("e" lógico) &&
+- é verdade quando tudo for verdade
+DISJUNÇÃO ("ou" lógico) ||
+- é verdade se ao menos uma condição for verdade
+INVERSÃO (negação - não lógico) !
+- é verdade quando o operando é falso
+
+Estrutura de decisão composta:
+comandos: IF-ELSE
+- se a condição for verdadeira:
+    bloco do IF é executado
+    bloco do ELSE é ignorado
+- caso contrário (condição falsa)
+    bloco do IF é ignorado
+    bloco do ELSE é executado
+Sintaxe:
+    if(<condição>){
+        <bloco de comando 1>
+    }
+    else{
+        <bloco de comando 2>
+    }

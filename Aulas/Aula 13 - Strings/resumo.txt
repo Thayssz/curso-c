@@ -1,0 +1,37 @@
+Strings:
+entrada e saída:
+    - scanf()
+        - limitações: sintaxe rebuscada
+        - especificador de formato: %s
+        - sintaxe geral: 
+            scanf("%s", <str>);
+        - sintaxe aprimorada:
+            scanf("%<tam.-1>[^\n]s", <str>);
+    - printf()
+        - especificador de formato: %s
+        - sintaxe:
+            printf("<texto>", <str1>, <str2>, ..., <strN>);
+    - gets()
+        - limitações: estouro do limite do vetor
+        - sintaxe:
+            gets(<string>);
+    - fgets()
+        - último caractere sempre fica reservado ao '\0'
+        - entrada padrão: stdin
+        - sintaxe:
+            fgets(<string>, <tam>, stdin);
+    - puts()
+        - imprime uma string diretamente na tela
+        - não admite variáveis de outros tipos
+        - sintaxe:
+            puts(<string>);
+    - fflush(stdin)
+        - chamar sempre depois de uma entrada
+        - é útil para que a próxima entrada não dê problema
+
+Biblioteca <string.h>
+Sintaxes de funções importantes:
+    - strcpy (<destino>, <origem>); USADO PARA ALTERAR O CONTEÚDO DE UMA STRING 
+    - strcat (<destino>, <origem>); JUNTA DUAS STRINGS
+    - strlen (<string>); MOSTRA O TAMANHO DA STRING
+    - strcmp (<string1>, <string2>); COMPARA IGUALDADE ENTRE STRINGS, SE SIM RETORNA O VALOR "0"

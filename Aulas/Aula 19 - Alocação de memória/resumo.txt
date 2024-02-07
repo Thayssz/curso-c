@@ -1,0 +1,19 @@
+ Alocação estática:
+    - o espaço para variáveis é reservado no ínicio da execução
+    - cada variável tem seu endereço fixado e a área de memória ocupada por ela se mantém constante durante toda a execução
+    - são alocadas na STACK da memória RAM
+    - liberação de memória feita automaticamente pelo compilador
+    - toda variável que é declarada é alocada na memória stack
+
+Alocação dinâmica:
+    - o espaço é alocado dinamicamente durante a execução do programa
+    - pode ser criada ou eliminada durante a execução do programa, ocupando espaço na memória apenas enquanto está sendo utilizada
+    - são alocadas na HEAP (free store) da memória RAM
+    - liberação de memória feita manualmente pelo 
+MALLOC:
+    - aloca um bloco de bytes consecutivos na memória heap e devolve o endereço desse bloco
+    - tipo*<nome> = (tipo*) malloc(<tamanho> * sizeof(tipo));
+    - a variavel <nome> é alocada na memória stack, mas guarda um endereço que aponta para a memória heap
+CALLOC: 
+    - aloca um bloco de bytes consecutivos na memória heap e inicializa todos os valores com 0 (NULL para ponteiros)
+    - tipo*<nome> = (tipo*)calloc(n, sizeof(tipo));
